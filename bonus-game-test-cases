@@ -1,0 +1,264 @@
+# Test Case ID: FT-001
+
+## Description
+The bonus feature is triggered with the correct criteria.
+
+## Preconditions
+- The slot machine game is loaded and ready to play.
+- The user has a positive balance.
+
+## Test Steps
+1. Spin the reels to display the required symbols for triggering the bonus feature.
+2. Observe if the bonus feature is activated.
+
+## Expected Results
+- The bonus feature should trigger when the correct criteria are met.
+- A transition to the bonus game should occur.
+
+## Actual Results
+(To be filled during testing)
+
+## Notes
+- Verify the triggering mechanism for the bonus feature.
+- Check the criteria for activation and user notification.
+
+---
+
+# Test Case ID: FT-002
+
+## Description
+The bonus feature is correctly adding the payout to the user balance.
+
+## Preconditions
+- The slot machine game is loaded and ready to play.
+- The user has a positive balance.
+- The bonus feature is active.
+
+## Test Steps
+1. Complete a bonus round.
+2. Observe the payout calculation.
+3. Check the user balance after the bonus round.
+
+## Expected Results
+- The payout from the bonus feature should be correctly added to the user balance.
+
+## Actual Results
+(To be filled during testing)
+
+## Notes
+- Verify the payout calculation mechanism.
+- Check the accuracy of balance updates.
+
+---
+
+# Test Case ID: FT-003
+
+## Description
+The multipliers are correctly triggering in the bonus feature.
+
+## Preconditions
+- The slot machine game is loaded and ready to play.
+- The user has a positive balance.
+- The bonus feature is active.
+
+## Test Steps
+1. Spin the reels during the bonus feature.
+2. Observe if multipliers are triggered.
+
+## Expected Results
+- The multipliers should correctly trigger according to the game rules.
+- The multiplied payout should be correctly calculated and added to the user balance.
+
+## Actual Results
+(To be filled during testing)
+
+## Notes
+- Verify the multiplier triggering mechanism.
+- Check the calculation of multiplied payouts.
+
+---
+
+# Test Case ID: FT-004
+
+## Description
+The bonuses are adding to the user balance correctly.
+
+## Preconditions
+- The slot machine game is loaded and ready to play.
+- The user has a positive balance.
+- The bonus feature is active.
+
+## Test Steps
+1. Complete multiple spins during the bonus round.
+2. Observe the accumulation of wins.
+3. Check the user balance after the bonus round.
+
+## Expected Results
+- Wins during the bonus feature should be correctly accumulated.
+- The total payout should be accurately added to the user balance.
+
+## Actual Results
+(To be filled during testing)
+
+## Notes
+- Verify the accumulation and calculation of wins.
+- Check the consistency of balance updates.
+
+---
+
+# Test Case ID: FT-005
+
+## Description
+The progressive jackpot is won with the correct criteria and awarded correctly.
+
+## Preconditions
+- The slot machine game is loaded and ready to play.
+- The user has a positive balance.
+
+## Test Steps
+1. Spin the reels to display the required symbols for triggering the progressive jackpot.
+2. Observe if the progressive jackpot is won.
+3. Check the user balance after the jackpot win.
+
+## Expected Results
+- The progressive jackpot should be won when the correct criteria are met.
+- The jackpot amount should be correctly awarded to the user balance.
+
+## Actual Results
+(To be filled during testing)
+
+## Notes
+- Verify the triggering mechanism for the progressive jackpot.
+- Check the accuracy of the awarded jackpot amount.
+
+---
+
+# Test Case ID: FT-006
+
+## Description
+The re-trigger scenario is triggered with correct conditions and added to the counter correctly.
+
+## Preconditions
+- The slot machine game is loaded and ready to play.
+- The user has a positive balance.
+- The bonus feature is active.
+
+## Test Steps
+1. Spin the reels during the bonus feature to meet the re-trigger conditions.
+2. Observe if the bonus feature is re-triggered.
+3. Check the updated counter for free spins or bonus rounds.
+
+## Expected Results
+- The bonus feature should re-trigger when the correct conditions are met.
+- The counter for free spins or bonus rounds should be updated correctly.
+
+## Actual Results
+(To be filled during testing)
+
+## Notes
+- Verify the re-trigger mechanism.
+- Check the accuracy of the updated counter.
+
+---
+
+# Test Case ID: FT-007
+
+## Description
+The random bonus is active and can be triggered correctly during the bonus feature.
+
+## Preconditions
+- The slot machine game is loaded and ready to play.
+- The user has a positive balance.
+- The bonus feature is active.
+
+## Test Steps
+1. Spin the reels during the bonus feature.
+2. Observe if a random bonus is triggered.
+
+## Expected Results
+- The random bonus should be correctly triggered according to the game rules.
+
+## Actual Results
+(To be filled during testing)
+
+## Notes
+- Verify the random bonus triggering mechanism.
+- Check the randomness and fairness of bonus activation.
+
+---
+
+# Test Case ID: FT-008
+
+## Description
+The wilds and bonus symbols during the Bonus feature are behaving correctly.
+
+## Preconditions
+- The slot machine game is loaded and ready to play.
+- The user has a positive balance.
+- The bonus feature is active.
+
+## Test Steps
+1. Spin the reels with wilds and bonus symbols during the bonus feature.
+2. Observe the behavior of the wilds and bonus symbols.
+
+## Expected Results
+- The wilds and bonus symbols should behave correctly according to the game rules.
+- The payouts and feature triggers should be accurate.
+
+## Actual Results
+(To be filled during testing)
+
+## Notes
+- Verify the interaction between wilds and bonus symbols.
+- Check the consistency and accuracy of feature triggers.
+
+---
+
+# Test Case ID: FT-009
+
+## Description
+The animations and sounds for symbols are correct during bonus feature.
+
+## Preconditions
+- The slot machine game is loaded and ready to play.
+- The user has a positive balance.
+- The bonus feature is active.
+
+## Test Steps
+1. Trigger the bonus feature.
+2. Observe the animations and sound effects during the bonus feature.
+
+## Expected Results
+- The animations and sound effects should be appropriate and function correctly.
+
+## Actual Results
+(To be filled during testing)
+
+## Notes
+- Verify the quality and synchronization of animations and sounds.
+- Check for any glitches or inconsistencies.
+
+---
+
+# Test Case ID: FT-010
+
+## Description
+The persistence data is saved correctly.
+
+## Preconditions
+- The slot machine game is loaded and ready to play.
+- The user has a positive balance.
+
+## Test Steps
+1. Complete a bonus round.
+2. Check the game history for the bonus game results.
+
+## Expected Results
+- The results of the bonus game should be accurately saved and persisted in the game history.
+
+## Actual Results
+(To be filled during testing)
+
+## Notes
+- Verify the data persistence mechanism.
+- Check the accuracy and completeness of the saved results.
