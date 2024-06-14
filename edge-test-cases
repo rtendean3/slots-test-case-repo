@@ -1,0 +1,128 @@
+# Test Case ID: EC-001
+
+## Description
+Test behavior when the slot machine spins with an empty reel (no symbols).
+
+## Preconditions
+- The slot machine game is loaded and ready to play.
+- The user has a positive balance.
+
+## Test Steps
+1. Spin the reels where one or more reels are empty (no symbols displayed).
+2. Observe the result of the spin.
+
+## Expected Results
+- An error message "Reels malfunction, please try again" should be displayed.
+- The spin should be considered invalid, and no bet should be deducted from the user balance.
+
+## Actual Results
+(To be filled during testing)
+
+## Notes
+- Verify the error handling for empty reels.
+- Check the user notification and ensure no balance is affected.
+
+---
+
+# Test Case ID: EC-002
+
+## Description
+Test behavior when all reels display the same symbol.
+
+## Preconditions
+- The slot machine game is loaded and ready to play.
+- The user has a positive balance.
+
+## Test Steps
+1. Spin the reels with all symbols displaying the same symbol (e.g., [Lemon, Lemon, Lemon]).
+2. Observe the result of the spin.
+
+## Expected Results
+- The user should win with the highest payout for matching all symbols.
+- The payout should be correctly calculated and added to the user balance.
+
+## Actual Results
+(To be filled during testing)
+
+## Notes
+- Verify the payout calculation for all matching symbols.
+- Check the balance update and display of win notification.
+
+---
+
+# Test Case ID: EC-003
+
+## Description
+Test the slot machine behavior with an invalid bet amount (e.g., negative bet or zero bet).
+
+## Preconditions
+- The slot machine game is loaded and ready to play.
+- The user has a positive balance.
+
+## Test Steps
+1. Set the bet amount to an invalid value (negative or zero).
+2. Attempt to spin the reels.
+3. Observe the behavior of the slot machine.
+
+## Expected Results
+- An error message "Invalid bet amount" should be displayed.
+- The spin should not be initiated.
+
+## Actual Results
+(To be filled during testing)
+
+## Notes
+- Verify the validation of bet amounts.
+- Check the error handling and user notification.
+
+---
+
+# Test Case ID: EC-004
+
+## Description
+Test the behavior when the slot machine spins with a mix of wilds and regular symbols that do not form a straightforward win.
+
+## Preconditions
+- The slot machine game is loaded and ready to play.
+- The user has a positive balance.
+
+## Test Steps
+1. Spin the reels with a mix of wilds and regular symbols (e.g., [Wild, Lemon, Wild]).
+2. Observe the result of the spin.
+
+## Expected Results
+- The user should win with a payout according to the game's rules for wilds and regular symbols.
+- The payout should be correctly calculated and added to the user balance.
+
+## Actual Results
+(To be filled during testing)
+
+## Notes
+- Verify the handling of mixed symbols including wilds.
+- Check the payout calculation and balance update.
+
+---
+
+# Test Case ID: EC-005
+
+## Description
+Test the slot machine behavior when the maximum payout limit is reached.
+
+## Preconditions
+- The slot machine game is loaded and ready to play.
+- The user has a positive balance.
+
+## Test Steps
+1. Spin the reels to reach the maximum payout limit.
+2. Observe the behavior of the slot machine and the payout calculation.
+
+## Expected Results
+- The maximum payout should be correctly awarded to the user balance.
+- Any additional wins should be capped according to the game's maximum payout rules.
+
+## Actual Results
+(To be filled during testing)
+
+## Notes
+- Verify the maximum payout limit enforcement.
+- Check the balance update and user notification when the limit is reached.
