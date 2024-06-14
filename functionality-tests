@@ -155,42 +155,364 @@ symbol).
 ## Description
 Test a spin with the minimum bet amount.
 
-
 ## Preconditions
-- 
+- The slot machine game is loaded and ready to play.
+- The user has a positive balance.
 
 ## Test Steps
-1. 
+1. Set the bet to 1 coin.
+2. Spin the reels with symbols [Orange, Orange, Orange].
 
 ## Expected Results
-- 
+- The spin should be accepted.
+- The user should win with a payout of 5 coins.
 
 ## Actual Results
 (To be filled during testing)
 
 ## Notes
+- Verify that the correct payout is calculated and awarded.
+- Check the display for the updated balance.
 
-- template
 ---
 
-# Test Case ID: TC-004
+# Test Case ID: TC-007
 
 ## Description
-This test case 
+Test a spin attempt with no bet placed.
 
 ## Preconditions
-- 
+- The slot machine game is loaded and ready to play.
+- The user has a positive balance.
 
 ## Test Steps
-1. 
+1. Set the bet to 0 coins.
+2. Spin the reels with symbols [Cherry, Cherry, Cherry].
 
 ## Expected Results
-- 
+- The spin should not be accepted.
+- An error message "No bet placed" should be displayed.
 
 ## Actual Results
 (To be filled during testing)
 
 ## Notes
+- Verify that the spin button is disabled when no bet is placed.
+- Check the error handling and user notification.
+
+---
+
+# Test Case ID: TC-008
+
+## Description
+Test a spin attempt with insufficient balance.
+
+## Preconditions
+- The slot machine game is loaded and ready to play.
+- The user has a balance of 5 coins.
+
+## Test Steps
+1. Set the bet to 10 coins.
+2. Spin the reels with symbols [Cherry, Cherry, Cherry].
+
+## Expected Results
+- The spin should not be accepted.
+- An error message "Insufficient balance" should be displayed.
+
+## Actual Results
+(To be filled during testing)
+
+## Notes
+- Verify the balance check mechanism.
+- Check the error handling and user notification.
+
+---
+
+# Test Case ID: TC-009
+
+## Description
+Test a spin on a slot machine with the maximum number of reels.
+
+## Preconditions
+- The slot machine game is loaded and ready to play.
+- The user has a positive balance.
+
+## Test Steps
+1. Spin the reels with symbols [Cherry, Cherry, Cherry, Cherry, Cherry].
+
+## Expected Results
+- The user should win with a payout of 50 coins.
+
+## Actual Results
+(To be filled during testing)
+
+## Notes
+- Verify the reel spin mechanism for the maximum number of reels.
+- Check the payout calculation and display.
+
+---
+
+# Test Case ID: TC-010
+
+## Description
+Test a spin on a slot machine with the minimum number of reels.
+
+## Preconditions
+- The slot machine game is loaded and ready to play.
+- The user has a positive balance.
+
+## Test Steps
+1. Spin the reels with symbols [Cherry, Cherry].
+
+## Expected Results
+- The user should win with a payout of 5 coins.
+
+## Actual Results
+(To be filled during testing)
+
+## Notes
+- Verify the reel spin mechanism for the minimum number of reels.
+- Check the payout calculation and display.
+
+---
+
+# Test Case ID: TC-011
+
+## Description
+Test a spin with wild symbols on all reels.
+
+## Preconditions
+- The slot machine game is loaded and ready to play.
+- The user has a positive balance.
+
+## Test Steps
+1. Spin the reels with symbols [Wild, Wild, Wild].
+
+## Expected Results
+- The user should win with a payout of 30 coins.
+
+## Actual Results
+(To be filled during testing)
+
+## Notes
+- Verify the handling of wild symbols.
+- Check the payout calculation and display.
+
+---
+
+# Test Case ID: TC-012
+
+## Description
+Test a spin that triggers a bonus game.
+
+## Preconditions
+- The slot machine game is loaded and ready to play.
+- The user has a positive balance.
+
+## Test Steps
+1. Spin the reels with symbols [Bonus, Bonus, Bonus].
+
+## Expected Results
+- The bonus game should be triggered.
+
+## Actual Results
+(To be filled during testing)
+
+## Notes
+- Verify the trigger mechanism for the bonus game.
+- Check the transition to the bonus game.
+
+---
+
+# Test Case ID: TC-013
+
+## Description
+Ensure that the result of a spin is saved correctly for historical data.
+
+## Preconditions
+- The slot machine game is loaded and ready to play.
+- The user has a positive balance.
+
+## Test Steps
+1. Spin the reels with symbols [Cherry, Lemon, Orange].
+
+## Expected Results
+- The spin result should be recorded in the game history.
+
+## Actual Results
+(To be filled during testing)
+
+## Notes
+- Verify the persistence of spin results.
+- Check the game history for accuracy.
+
+---
+
+# Test Case ID: TC-014
+
+## Description
+Test a spin where all reels have the same symbol.
+
+## Preconditions
+- The slot machine game is loaded and ready to play.
+- The user has a positive balance.
+
+## Test Steps
+1. Spin the reels with symbols [Lemon, Lemon, Lemon].
+
+## Expected Results
+- The user should win with a payout of 10 coins.
+
+## Actual Results
+(To be filled during testing)
+
+## Notes
+- Verify the handling of spins with identical symbols.
+- Check the payout calculation and display.
+
+---
+
+# Test Case ID: TC-015
+
+## Description
+Test behavior when reels show no symbols (e.g., error in reel mechanism).
+
+## Preconditions
+- The slot machine game is loaded and ready to play.
+- The user has a positive balance.
+
+## Test Steps
+1. Spin the reels with no symbols [ ].
+
+## Expected Results
+- An error message "Reels malfunction, please try again" should be displayed.
+
+## Actual Results
+(To be filled during testing)
+
+## Notes
+- Verify the error handling for reel malfunctions.
+- Check the user notification and resolution process.
+
+---
+
+# Test Case ID: TC-016
+
+## Description
+Test a spin where a special symbol contributes to a regular win.
+
+## Preconditions
+- The slot machine game is loaded and ready to play.
+- The user has a positive balance.
+
+## Test Steps
+1. Spin the reels with symbols [Wild, Wild, Cherry].
+
+## Expected Results
+- The user should win with a payout of 20 coins (assuming Wild acts as any symbol).
+
+## Actual Results
+(To be filled during testing)
+
+## Notes
+- Verify the behavior of special symbols in regular wins.
+- Check the payout calculation and display.
+
+---
+
+# Test Case ID: TC-017
+
+## Description
+Test a spin with a mix of wilds and regular symbols where the win is not straightforward.
+
+## Preconditions
+- The slot machine game is loaded and ready to play.
+- The user has a positive balance.
+
+## Test Steps
+1. Spin the reels with symbols [Wild, Lemon, Wild].
+
+## Expected Results
+- The user should win with a payout of 10 coins.
+
+## Actual Results
+(To be filled during testing)
+
+## Notes
+- Verify the handling of mixed wilds and regular symbols.
+- Check the payout calculation and display.
+
+---
+
+# Test Case ID: TC-018
+
+## Description
+Test the slot machine behavior over a long session with consistent wins.
+
+## Preconditions
+- The slot machine game is loaded and ready to play.
+- The user has a positive balance.
+
+## Test Steps
+1. Perform multiple spins with results leading to wins.
+
+## Expected Results
+- The correct accumulation of payouts over time should be observed.
+
+## Actual Results
+(To be filled during testing)
+
+## Notes
+- Verify the consistency and accuracy of win payouts.
+- Check the balance updates over multiple spins.
+
+---
+
+# Test Case ID: TC-019
+
+## Description
+Test the slot machine behavior over a long session with consistent losses.
+
+## Preconditions
+- The slot machine game is loaded and ready to play.
+- The user has a positive balance.
+
+## Test Steps
+1. Perform multiple spins with results leading to losses.
+
+## Expected Results
+- The correct deduction of bets over time should be observed.
+
+## Actual Results
+(To be filled during testing)
+
+## Notes
+- Verify the consistency and accuracy of bet deductions.
+- Check the balance updates over multiple spins.
+
+---
+
+# Test Case ID: TC-020
+
+## Description
+Validate the randomness of spins over multiple attempts.
+
+## Preconditions
+- The slot machine game is loaded and ready to play.
+- The user has a positive balance.
+
+## Test Steps
+1. Perform 1000 spins.
+
+## Expected Results
+- The distribution of symbols should be statistically random.
+
+## Actual Results
+(To be filled during testing)
+
+## Notes
+- Verify the random number generation algorithm.
+- Check the distribution and patterns of spin results.
 
 
 
