@@ -1,0 +1,196 @@
+# Test Case ID: TC-001
+
+## Description
+This test case verifies the functionality of the reel spin feature in the slot machine game.
+
+## Preconditions
+- The slot machine game is loaded and ready to play.
+- The user has a positive balance.
+
+## Test Steps
+1. Launch the slot machine game.
+2. Click the "Spin" button.
+3. Wait for the reels to stop spinning.
+
+## Expected Results
+- The reels should start spinning when the "Spin" button is clicked.
+- The reels should stop spinning after a few seconds.
+- The result of the spin should be displayed on the screen (e.g., matching symbols or a message indicating no win).
+
+## Actual Results
+(To be filled during testing)
+
+## Notes
+- Verify that the spin button is disabled while the reels are spinning.
+- Check the animation and sound effects during the spin.
+
+---
+
+# Test Case ID: TC-002
+
+## Description
+This test case verifies the payout calculation after a winning spin.
+
+## Preconditions
+- The slot machine game is loaded and ready to play.
+- The user has a positive balance.
+- The test environment is set to guarantee a win on the next spin.
+
+## Test Steps
+1. Launch the slot machine game.
+2. Click the "Spin" button.
+3. Wait for the reels to stop spinning and display a winning combination.
+
+## Expected Results
+- The game should correctly calculate the payout based on the winning combination.
+- The user’s balance should be updated with the correct payout amount.
+- A message indicating the win and the payout amount should be displayed.
+
+## Actual Results
+(To be filled during testing)
+
+## Notes
+- Verify that the payout amount is accurate according to the game’s paytable.
+- Ensure the balance update reflects the payout instantly.
+
+---
+
+# Test Case ID: TC-003
+
+## Description
+This test case verifies the payout calculation after the result of a losing spin.
+
+## Preconditions
+- The slot machine game is loaded and ready to play.
+- The user has a positive balance.
+
+## Test Steps
+1. Launch the slot machine game.
+2. Click the "Spin" button.
+3. Wait for the reels to stop spinning and display a losing combination.
+
+## Expected Results
+- The game should correctly calculate the payout based on the winning combination.
+- The user’s balance should be updated with the correct payout amount.
+- The result should indicate a loss.
+- The user’s balance should remain unchanged.
+- A message indicating a loss should be displayed.
+
+## Actual Results
+(To be filled during testing)
+
+## Notes
+Verify that the spin button is disabled while the reels are spinning.
+Check that the correct symbols are displayed and the loss is recorded.
+
+---
+
+# Test Case ID: TC-004
+
+## Description
+This test case verifies a spin that includes special symbols (e.g., Wilds, Bonus).
+
+
+## Preconditions
+- The slot machine game is loaded and ready to play.
+- The user has a positive balance.
+- The game’s paytable includes special symbols and their effects (e.g., Wild substitutes any symbol).
+
+## Test Steps
+1. Launch the slot machine game.
+2. Click the "Spin" button.
+3. Wait for the reels to stop spinning and display the symbols [Wild, Cherry, Cherry].
+
+## Expected Results
+- The game should display the symbols [Wild, Cherry, Cherry] on the reels.
+- The result should indicate a win.
+- The user’s balance should be updated with the payout amount of 15 coins (assuming Wild substitutes any
+symbol).
+- A message indicating the win and the payout amount should be displayed.
+
+
+## Actual Results
+(To be filled during testing)
+
+## Notes
+- Verify that the spin button is disabled while the reels are spinning.
+- Check that the correct symbols are displayed and the win is calculated correctly.
+
+---
+# Test Case ID: TC-005
+
+## Description
+- This test case verifies a spin with the maximum bet amount.
+
+## Preconditions
+- The slot machine game is loaded and ready to play.
+- The user has a sufficient balance to place the maximum bet.
+- The maximum bet amount is set to 100 coins.
+
+## Test Steps
+1. Launch the slot machine game.
+2. Set the bet amount to 100 coins (maximum bet).
+3. Click the "Spin" button.
+4. Wait for the reels to stop spinning and display the symbols [Bell, Bell, Bell].
+
+## Expected Results
+- The game should accept the maximum bet amount of 100 coins.
+- The game should display the symbols [Bell, Bell, Bell] on the reels.
+-The result should indicate a win.
+-The user’s balance should be updated with the payout amount of 1000 coins.
+- A message indicating the win and the payout amount should be displayed.
+
+## Actual Results
+(To be filled during testing)
+
+## Notes
+- Verify that the spin button is disabled while the reels are spinning.
+- Ensure the bet amount is correctly deducted from the balance before spinning.
+- Check that the correct symbols are displayed and the win is calculated accurately.
+
+---
+
+# Test Case ID: TC-006
+
+## Description
+Test a spin with the minimum bet amount.
+
+
+## Preconditions
+- 
+
+## Test Steps
+1. 
+
+## Expected Results
+- 
+
+## Actual Results
+(To be filled during testing)
+
+## Notes
+
+- template
+---
+
+# Test Case ID: TC-004
+
+## Description
+This test case 
+
+## Preconditions
+- 
+
+## Test Steps
+1. 
+
+## Expected Results
+- 
+
+## Actual Results
+(To be filled during testing)
+
+## Notes
+
+
+
